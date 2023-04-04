@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Specification SchemaVersion="4.4">
+	<Identification><![CDATA[tst_case-10]]></Identification>
+	<Title><![CDATA[(AUTO) Test modifying BDD file]]></Title>
+	<IsImported><![CDATA[false]]></IsImported>
+	<IsRegression><![CDATA[true]]></IsRegression>
+	<VerifiedRequirements></VerifiedRequirements>
+	<AssociatedCampaigns></AssociatedCampaigns>
+	<Uri></Uri>
+	<Objective><![CDATA[Objectives : 
+
+Testing modifying the BDD file]]></Objective>
+	<Method><![CDATA[A]]></Method>
+	<Version></Version>
+	<Status><![CDATA[Accepted]]></Status>
+	<IsTestMeansDefined><![CDATA[true]]></IsTestMeansDefined>
+	<IsTestDataSetDefined><![CDATA[true]]></IsTestDataSetDefined>
+	<Category><![CDATA[category]]></Category>
+	<ExtraAttributes>
+		<ExtraAttribute>
+			<Name><![CDATA[Test type]]></Name>
+			<Value><![CDATA[No Functional]]></Value>
+		</ExtraAttribute>
+		<ExtraAttribute>
+			<Name><![CDATA[Prerequisit]]></Name>
+			<Value><![CDATA[prerequisites]]></Value>
+		</ExtraAttribute>
+		<ExtraAttribute>
+			<Name><![CDATA[Specific Skills Needed]]></Name>
+			<Value><![CDATA[skills]]></Value>
+		</ExtraAttribute>
+	</ExtraAttributes>
+	<Rank><![CDATA[11]]></Rank>
+</Specification>

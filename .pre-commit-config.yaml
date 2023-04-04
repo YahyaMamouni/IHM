@@ -1,0 +1,51 @@
+---
+# exclude:
+fail_fast: true
+
+repos:
+# Python
+-   repo: local
+    hooks:
+    - id: black
+      name: Black
+      entry: black
+      language: system
+      types: [python]
+
+    - id: flake8
+      name: Flake8
+      entry: flake8
+      language: system
+      types: [python]
+
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.2.0
+    hooks:
+    -   id: check-added-large-files
+        args: ['--maxkb=5000']
+    -   id: forbid-new-submodules
+    -   id: no-commit-to-branch
+        args: [--branch, master]
+    -   id: end-of-file-fixer
+        exclude: ^tests/
+    -   id: trailing-whitespace
+        types: [text]
+        exclude: ^tests/
+    -   id: mixed-line-ending
+        args: [--fix=lf]
+        types: [text]
+        exclude: ^tests/
+    -   id: check-merge-conflict
+        types: [text]
+    -   id: detect-private-key
+        types: [text, executable]
+    -   id: check-json
+        types: [json]
+    -   id: pretty-format-json
+        types: [json]
+    -   id: check-toml
+        types: [toml]
+    -   id: check-yaml
+        types: [yaml]
+    -   id: debug-statements
+        types: [python]

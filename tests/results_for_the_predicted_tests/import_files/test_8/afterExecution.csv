@@ -1,0 +1,8 @@
+Test Case : tst_case-9
+Step 1,Given the app is running,NOTE 'True' and 'True' are equal
+Step 2,Given the user is logged in as operator,NOTE 'True' and 'True' are equal
+Step 3,When I clear the conveyor 2,NOTE Step passed
+Step 4,Then the conveyor is clear,FAIL Error No Matching Step Definition
+Step 5,When I put the baggage on the conveyor,NOTE Step skipped
+Step 6,Then I see the images,NOTE Step skipped
+""

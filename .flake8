@@ -1,0 +1,25 @@
+[flake8]
+max-line-length = 88
+
+exclude =
+    .git,
+    __pycache__,
+    .kdev4,
+    build,
+    install,
+    .pytest_cache,
+    pkg_templates/*,
+
+ignore =
+    H104, # file contains nothing but comments (OK for __init__.py)
+    H301, # one import per line (too restrictive)
+    H306, # imports not in alphabetical order
+    W503, # line break before binary operator (useless with black)
+    E203, # whitespace before ':' (useless with black)
+    F811, # step is declared multiple times and not used
+    F821, # decorators (given, then, when) are not recognized
+    F403, # import *
+    F401, # import not used
+    E203, # no whitespace before ':'
+    F821, # undefined name
+    F405, # undefined or defined from star imports (tkinter)

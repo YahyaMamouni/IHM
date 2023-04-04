@@ -1,0 +1,12 @@
+Test Case : tst_case-4
+Step 1,Given Calculator is ON,NOTE 'True' and 'True' are equal
+Step 2,When Tap 1,NOTE Error No Matching Step Definition
+Step 3,When Tap + button,NOTE Step skipped
+Step 4,When Tap 2,NOTE Step skipped
+Step 5,When Press = button,NOTE Step skipped
+Step 6,Then Check calculator result 3,NOTE Step skipped
+Step 7,When Press x,NOTE Step skipped
+Step 8,When Tap 5,NOTE Step skipped
+Step 9,When Press = button,NOTE Step skipped
+Step 10,Then Check calculator 15,NOTE Step skipped
+""

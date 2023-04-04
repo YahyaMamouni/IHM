@@ -1,0 +1,6 @@
+*.pyc
+__pycache__
+results/tst_case-3_IVV.xml
+*/.idea/
+.idea/*
+results

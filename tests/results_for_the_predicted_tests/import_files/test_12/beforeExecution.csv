@@ -1,0 +1,14 @@
+tst_case-12,Steps not matched in Vivaldi
+Step 1, [1-1]the user is logged in as operator
+Step 2, [2-1]the conveyor is clear
+Step 3, [2-X]I put the baggage on the conveyor
+Step 4, [3-1]I see the images
+""
+tst_case-12,Steps not matched in Squish
+Step 1, [Line : 10]the app is running
+Step 2, [Line : 11]the user is logged in as operator
+Step 3, [Line : 17]I clear the conveyor 2
+Step 4, [Line : 18]the conveyor is clear
+Step 5, [Line : 19]I put the baggage on the conveyor
+Step 6, [Line : 23]I see the images
+""

@@ -1,0 +1,8 @@
+Test Case : tst_case-5
+Step 1,Given Machine ON,NOTE Error No Matching Step Definition
+Step 2,When Press 3,NOTE Step skipped
+Step 3,When Press +,NOTE Step skipped
+Step 4,When Press 4,NOTE Step skipped
+Step 5,When Press =,NOTE Step skipped
+Step 6,Then Check calculator result 7,NOTE Step skipped
+""

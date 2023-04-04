@@ -1,0 +1,10 @@
+Test Case : tst_case-8
+Step 1,Given Selecting Machine,NOTE Error No Matching Step Definition
+Step 2,When Press 39,NOTE Step skipped
+Step 3,When Press +,NOTE Step skipped
+Step 4,When Press 1,NOTE Step skipped
+Step 5,When Press +,NOTE Step skipped
+Step 6,When Press 60,NOTE Step skipped
+Step 7,When Press equal,NOTE Step skipped
+Step 8,Then Check result 100,NOTE Step skipped
+""

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Specification SchemaVersion="4.4">
+	<Identification><![CDATA[tst_acp-13]]></Identification>
+	<Title><![CDATA[(Auto) Title of tst_auto-13]]></Title>
+	<IsImported><![CDATA[false]]></IsImported>
+	<IsRegression><![CDATA[false]]></IsRegression>
+	<VerifiedRequirements></VerifiedRequirements>
+	<AssociatedCampaigns></AssociatedCampaigns>
+	<Uri></Uri>
+	<Objective><![CDATA[Testing]]></Objective>
+	<Method><![CDATA[I]]></Method>
+	<Version></Version>
+	<Status></Status>
+	<IsTestMeansDefined><![CDATA[false]]></IsTestMeansDefined>
+	<IsTestDataSetDefined><![CDATA[false]]></IsTestDataSetDefined>
+	<Category></Category>
+	<ExtraAttributes>
+		<ExtraAttribute>
+			<Name><![CDATA[Test type]]></Name>
+			<Value><![CDATA[Robustness]]></Value>
+		</ExtraAttribute>
+	</ExtraAttributes>
+	<Rank><![CDATA[6]]></Rank>
+</Specification>

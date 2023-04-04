@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ResultConsolidationRules SchemaVersion="1.0">
+     <SuiteConsolidationResult> <!-- Based on Test Cases results -->
+          <Rule Result="Blocked" Scope="Any">Blocked</Rule>
+          <Rule Result="Error" Scope="Any">Error</Rule>
+          <Rule Result="KO" Scope="Any">KO</Rule>
+          <Rule Result="Inconclusive" Scope="Any">Inconclusive</Rule>
+          <Rule Result="OS" Scope="All">OS</Rule>
+          <Rule Result="OK" Scope="All" ToIgnore="OS">OK</Rule>
+     </SuiteConsolidationResult>
+     <CaseConsolidationResult> <!-- Based on Test Steps results -->
+          <Rule Result="KO" Scope="Any">KO</Rule>
+          <Rule Result="OS" Scope="All">OS</Rule>
+          <Rule Result="OK" Scope="All" ToIgnore="OS">OK</Rule>
+     </CaseConsolidationResult>
+</ResultConsolidationRules>

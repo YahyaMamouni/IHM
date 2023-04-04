@@ -1,0 +1,5 @@
+tst_acp-19
+TITLE;'Auto) Test BDD generation' Doesn't start with (Auto)
+Step 2;[1-1];Given the user is logged in as operator;Type must be X
+""
+

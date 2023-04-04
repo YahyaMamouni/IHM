@@ -1,0 +1,13 @@
+Test Case : tst_case-3
+Step 1,Given Calculator is ON,NOTE 'True' and 'True' are equal
+Step 2,Given No calculation on going,NOTE 'True' and 'True' are equal
+Step 3,When Tap 2 on calculator,NOTE Step passed
+Step 4,When Tap + button,NOTE Step passed
+Step 5,When Tap 2 on calculator,NOTE Step passed
+Step 6,When Press = button,NOTE Step passed
+Step 7,Then Check calculator result 4,PASS 'True' and 'True' are equal
+Step 8,When Press x button,NOTE Step passed
+Step 9,When Tap 2 on calculator,NOTE Step passed
+Step 10,When Press = button,NOTE Step passed
+Step 11,Then Check calculator result 8,PASS 'True' and 'True' are equal
+""

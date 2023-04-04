@@ -1,0 +1,12 @@
+tst_case-11,Steps not matched in Vivaldi
+Step 7, [2-P2-X]I clear the conveyor 2
+Step 9, [2-P2-X]I clear the conveyor 2
+Step 10, [2-P2-1]the conveyor is clear
+Step 11, [2-P2-X]I put the baggage on the conveyor
+Step 12, [3-1]I see the images
+""
+tst_case-11,Steps not matched in Squish
+Step 4, [Line : 18]the conveyor is clear
+Step 5, [Line : 19]I put the baggage on the conveyor
+Step 6, [Line : 23]I see the images
+""

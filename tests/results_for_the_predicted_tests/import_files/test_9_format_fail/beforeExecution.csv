@@ -1,0 +1,5 @@
+tst_case-3
+Step 1;[A];Given No calculation on going;Type must be X
+Step 6;[1-P1-1];Then Check calculator result;Expected result must not be empty
+""
+

@@ -1,0 +1,8 @@
+tst_case-6,Steps not matched in Vivaldi
+Step 1, [A-X]Machine is turning
+Step 2, [1-X]Press 0150
+""
+tst_case-6,Steps not matched in Squish
+Step 1, [Line : 8]Machine is turning ON
+Step 2, [Line : 12]Press 50
+""

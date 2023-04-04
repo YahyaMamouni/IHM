@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Labels SchemaVersion="1.0">
+  <!-- Predefined enumerated values -->
+  <Label id="True"><![CDATA[True]]></Label>
+  <Label id="False"><![CDATA[False]]></Label>
+  <Label id="Step.Result.OK"><![CDATA[Passed]]></Label>
+  <Label id="Step.Result.KO"><![CDATA[Failed]]></Label>
+  <Label id="Step.Result.NT"><![CDATA[NT]]></Label>
+  <Label id="Step.Result.OS"><![CDATA[OS]]></Label>
+  <Label id="Suite_Case.Result.OK"><![CDATA[Passed]]></Label>
+  <Label id="Suite_Case.Result.KO"><![CDATA[Failed]]></Label>
+  <Label id="Suite_Case.Result.Blocked"><![CDATA[Blocked]]></Label>
+  <Label id="Suite_Case.Result.Error"><![CDATA[Error]]></Label>
+  <Label id="Suite_Case.Result.Inconclusive"><![CDATA[Inconclusive]]></Label>
+  <Label id="Suite_Case.Result.OS"><![CDATA[OS]]></Label>
+  <Label id="Suite_Case.RunningStatus.NotRun"><![CDATA[not run]]></Label>
+  <Label id="Suite_Case.RunningStatus.BeingRun"><![CDATA[being run]]></Label>
+  <Label id="Suite_Case.RunningStatus.Run"><![CDATA[run]]></Label>
+  <Label id="Suite_Case.WritingStatus.NotWritten"><![CDATA[not written]]></Label>
+  <Label id="Suite_Case.WritingStatus.BeingWritten"><![CDATA[being written]]></Label>
+  <Label id="Suite_Case.WritingStatus.WrittenAndNotReviewed"><![CDATA[written & not reviewed]]></Label>
+  <Label id="Suite_Case.WritingStatus.WrittenAndReviewedKO"><![CDATA[written & reviewed NOK]]></Label>
+  <Label id="Suite_Case.WritingStatus.WrittenAndReviewedOK"><![CDATA[written & reviewed OK]]></Label>
+  <Label id="Suite.TestSuiteType.Manual"><![CDATA[Manual]]></Label>
+  <Label id="Suite.TestSuiteType.Automatic"><![CDATA[Automatic]]></Label>
+  <Label id="Suite.FilterResult.WithDefects"><![CDATA[With Defects]]></Label>
+  <Label id="Suite.FilterResult.SelectAll"><![CDATA[Select all]]></Label>
+  <Label id="Suite.FilterResult.NotRun"><![CDATA[Not run]]></Label>
+
+  <!-- Field names in Test Suites -->
+  <Label id="Suite.Identification"><![CDATA[Identification]]></Label>
+  <Label id="Suite.Version"><![CDATA[Version]]></Label>
+  <Label id="Suite.Title"><![CDATA[Title]]></Label>
+  <Label id="Suite.Regression"><![CDATA[Regression]]></Label>
+  <Label id="Suite.VerificationMethod"><![CDATA[Verif. method]]></Label>
+  <Label id="Suite.Objective"><![CDATA[Objective]]></Label>
+  <Label id="Suite.Revision"><![CDATA[Revision]]></Label>
+  <Label id="Suite.RunNumber"><![CDATA[Run number]]></Label>
+  <Label id="Suite.TestDescription"><![CDATA[Test description]]></Label>
+  <Label id="Suite.TestResult"><![CDATA[Test result]]></Label>
+  <Label id="Suite.WrittenBy"><![CDATA[Written by]]></Label>
+  <Label id="Suite.WriterEmail"><![CDATA[Writer email]]></Label>
+  <Label id="Suite.WritingStatus"><![CDATA[Writing status]]></Label>
+  <Label id="Suite.RunningStatus"><![CDATA[Running status]]></Label>
+  <Label id="Suite.RunBy"><![CDATA[Run by]]></Label>
+  <Label id="Suite.RunnerEmail"><![CDATA[Runner email]]></Label>
+  <Label id="Suite.LastRunDate"><![CDATA[Last run date]]></Label>
+  <Label id="Suite.OKPercentage"><![CDATA[%OK]]></Label>
+  <Label id="Suite.RunDuration"><![CDATA[Run duration]]></Label>
+  <Label id="Suite.Defects"><![CDATA[Defects]]></Label>
+  <Label id="Suite.Notes"><![CDATA[Notes]]></Label>
+  <Label id="Suite.NumberOfCases"><![CDATA[# Cases]]></Label>
+  <Label id="Suite.NumberOfSteps"><![CDATA[# Steps]]></Label>
+  <Label id="Suite.NumberOfPassedSteps"><![CDATA[# Passed steps]]></Label>
+  <Label id="Suite.NumberOfFailedSteps"><![CDATA[# Failed steps]]></Label>
+  <Label id="Suite.NumberOfRemainingSteps"><![CDATA[# Remaining steps]]></Label>
+  <Label id="Suite.NumberOfStepsWithDefects"><![CDATA[# Steps with defect]]></Label>
+  <Label id="Suite.NumberOfNTSteps"><![CDATA[# Not Testable steps]]></Label>
+  <Label id="Suite.NumberOfOSSteps"><![CDATA[# Out of Scope steps]]></Label>
+  <Label id="Suite.TestSuiteType"><![CDATA[Test suite type]]></Label>
+  <Label id="Suite.ScriptPath"><![CDATA[Script path]]></Label>
+  <Label id="Suite.ScriptArguments"><![CDATA[Script arguments]]></Label>
+  <Label id="Suite.DataSetAvailable"><![CDATA[Data set available]]></Label>
+  <Label id="Suite.MeansAvailable"><![CDATA[Means available]]></Label>
+  <Label id="Suite.VersionUnderTest"><![CDATA[Version under test]]></Label>
+  <Label id="Suite.SoftwareEnvironment"><![CDATA[Soft. test env.]]></Label>
+  <Label id="Suite.HardwareEnvironment"><![CDATA[Hard. test env.]]></Label>
+  <Label id="Suite.FreeField1"><![CDATA[Free field 1]]></Label>
+  <Label id="Suite.FreeField2"><![CDATA[Free field 2]]></Label>
+  <Label id="Suite.FreeField3"><![CDATA[Free field 3]]></Label>
+  <Label id="Suite.FreeField4"><![CDATA[Free field 4]]></Label>
+  <Label id="Suite.PvRestriction"><![CDATA[pvRestriction]]></Label>
+  <Label id="Suite.Derivation"><![CDATA[Derivation]]></Label>
+  <!-- Field names in Test Cases -->
+  <Label id="Case.WritingStatus"><![CDATA[Writing status]]></Label>
+  <Label id="Case.Result"><![CDATA[Result]]></Label>
+  <Label id="Case.RunningStatus"><![CDATA[Running status]]></Label>
+  <Label id="Case.Runner"><![CDATA[Runner]]></Label>
+  <Label id="Case.LastRunDate"><![CDATA[Last run date]]></Label>
+  <Label id="Case.Requirements"><![CDATA[Requirements]]></Label>
+  <Label id="Case.Defects"><![CDATA[Defects]]></Label>
+  <Label id="Case.Objectives"><![CDATA[Objectives]]></Label>
+  <Label id="Case.Description"><![CDATA[Description]]></Label>
+  <Label id="Case.Regression"><![CDATA[Regression]]></Label>
+  <Label id="Case.TestMethod"><![CDATA[Verif. method]]></Label>
+  <Label id="Case.ValidationPlatform"><![CDATA[Valid. platform]]></Label>
+  <Label id="Case.PvRestriction"><![CDATA[pvRestriction]]></Label>
+  <Label id="Case.Derivation"><![CDATA[Derivation]]></Label>
+
+  <!-- Enumeration values in Test Suites and Test Cases for Test Method: I, A, D, T -->
+  <Label id="I"><![CDATA[I]]></Label>
+  <Label id="A"><![CDATA[A]]></Label>
+  <Label id="D"><![CDATA[D]]></Label>
+  <Label id="T"><![CDATA[T]]></Label>
+
+  <!-- Enumeration values in Test Suites for Software Test Environment -->
+  <Label id="Software Test Environment 1"><![CDATA[Software Test Environment 1]]></Label>
+  <Label id="Software Test Environment 2"><![CDATA[Software Test Environment 2]]></Label>
+  <Label id="Software Test Environment 3"><![CDATA[Software Test Environment 3]]></Label>
+
+   <!-- Enumeration values in Test Suites for Hardware Test Environment -->
+  <Label id="Hardware Test Environment 1"><![CDATA[Hardware Test Environment 1]]></Label>
+  <Label id="Hardware Test Environment 2"><![CDATA[Hardware Test Environment 2]]></Label>
+  <Label id="Hardware Test Environment 3"><![CDATA[Hardware Test Environment 3]]></Label>
+
+   <!-- Enumeration values in Test Cases Validation Platform -->
+  <Label id="Validation platform 1"><![CDATA[Validation platform 1]]></Label>
+  <Label id="Validation platform 2"><![CDATA[Validation platform 2]]></Label>
+  <Label id="Validation platform 3"><![CDATA[Validation platform 3]]></Label>
+
+  <!-- Column header in Test Steps -->
+  <Label id="Step.Type"><![CDATA[Type]]></Label>
+  <Label id="Step.Id"><![CDATA[Id]]></Label>
+  <Label id="Step.Description"><![CDATA[Description]]></Label>
+  <Label id="Step.ExpectedResult"><![CDATA[Expected result]]></Label>
+  <Label id="Step.VerificationType"><![CDATA[Verification type]]></Label>
+  <Label id="Step.Result"><![CDATA[Result]]></Label>
+  <Label id="Step.AssociatedDefects"><![CDATA[Defects]]></Label>
+  <Label id="Step.CommentOnResult"><![CDATA[Comment On Result]]></Label>
+  <Label id="Step.Requirements"><![CDATA[Requirements]]></Label>
+  <Label id="Step.Runner"><![CDATA[Runner]]></Label>
+  <Label id="Step.LastRunDate"><![CDATA[Last run date]]></Label>
+  <Label id="Step.FreeColumn1"><![CDATA[Free column 1]]></Label>
+  <Label id="Step.FreeColumn2"><![CDATA[Free column 2]]></Label>
+  <Label id="Step.FreeColumn3"><![CDATA[Free column 3]]></Label>
+  <Label id="Step.FreeColumn4"><![CDATA[Free column 4]]></Label>
+  <Label id="Step.PvRestriction"><![CDATA[pvRestriction]]></Label>
+  <Label id="Step.Derivation"><![CDATA[Derivation]]></Label>
+  <Label id="Step.UniqueIdentifier"><![CDATA[Unique Identifier]]></Label>
+
+  <!-- Column header in Test Specification -->
+  <Label id="Test.Rank"><![CDATA[Rank]]></Label>
+  <Label id="Test.Identification"><![CDATA[Identification]]></Label>
+  <Label id="Test.Version"><![CDATA[Version]]></Label>
+  <Label id="Test.Title"><![CDATA[Title]]></Label>
+  <Label id="Test.Objectives"><![CDATA[Objectives]]></Label>
+  <Label id="Test.Method"><![CDATA[Method]]></Label>
+  <Label id="Test.Status"><![CDATA[Status]]></Label>
+  <Label id="Test.TestType"><![CDATA[Test type]]></Label>
+  <Label id="Test.Regression"><![CDATA[Regression]]></Label>
+  <Label id="Test.CampaignTypes"><![CDATA[Campaign types]]></Label>
+  <Label id="Test.MeansDefined?"><![CDATA[Means defined?]]></Label>
+  <Label id="Test.DataSetDefined?"><![CDATA[Data set defined?]]></Label>
+  <Label id="Test.Category"><![CDATA[Category]]></Label>
+  <Label id="Test.SpecificSkillsNeeded"><![CDATA[Specific Skills Needed]]></Label>
+  <Label id="Test.VerifiedRequirements"><![CDATA[Verified requirements]]></Label>
+  <Label id="Test.ImportedFromDOORS"><![CDATA[ImportedFromDOORS]]></Label>
+
+  <!-- Column header in Campaign Definition -->
+  <Label id="CampaignType.Name"><![CDATA[Name]]></Label>
+  <Label id="CampaignType.Objective"><![CDATA[Objective]]></Label>
+  <Label id="CampaignType.Type"><![CDATA[Type]]></Label>
+
+  <!-- Column header in Requirement Details -->
+  <Label id="Requirement.Uri"><![CDATA[Uri]]></Label>
+  <Label id="Requirement.Label"><![CDATA[Label]]></Label>
+  <Label id="Requirement.Version"><![CDATA[Version]]></Label>
+  <Label id="Requirement.Description"><![CDATA[Description]]></Label>
+
+  <!-- Field Allocated in   llocation windows -->
+  <Label id="Allocated"><![CDATA[Allocated]]></Label>
+
+  <!-- Field names in Traceability tab -->
+  <Label id="Suite.Traceability.AssociatedReq"><![CDATA[Associated requirements]]></Label>
+  <Label id="Suite.Traceability.Consolidation"><![CDATA[Consolidation]]></Label>
+  <Label id="Suite.Traceability.Description"><![CDATA[Description]]></Label>
+  <Label id="Suite.Traceability.Version"><![CDATA[Version]]></Label>
+
+  <!-- Field names in Changes tab -->
+  <Label id="Suite.Changes.Revision"><![CDATA[Revision]]></Label>
+  <Label id="Suite.Changes.Date"><![CDATA[Date]]></Label>
+  <Label id="Suite.Changes.WrittenBy"><![CDATA[Written by]]></Label>
+  <Label id="Suite.Changes.CheckedBy"><![CDATA[Checked by]]></Label>
+  <Label id="Suite.Changes.ApprovedBy"><![CDATA[Approved by]]></Label>
+  <Label id="Suite.Changes.Description"><![CDATA[Description]]></Label>
+
+  <!-- Field names in Executions tab -->
+  <Label id="Suite.Executions.RunNumber"><![CDATA[Run Number]]></Label>
+  <Label id="Suite.Executions.Date"><![CDATA[Date]]></Label>
+  <Label id="Suite.Executions.RunBy"><![CDATA[Run by]]></Label>
+  <Label id="Suite.Executions.TestSuiteResult"><![CDATA[Test Suite Result]]></Label>
+  <Label id="Suite.Executions.VersionUnderTest"><![CDATA[Version under Test]]></Label>
+  <Label id="Suite.Executions.AssociatedDefects"><![CDATA[Associated Defects]]></Label>
+  <Label id="Suite.Executions.Comments"><![CDATA[Comments]]></Label>
+
+  <!-- Field names in Extra Attributes tab -->
+  <Label id="Suite.ExtraAttr.Name"><![CDATA[Name]]></Label>
+  <Label id="Suite.ExtraAttr.Value"><![CDATA[Value]]></Label>
+</Labels>
